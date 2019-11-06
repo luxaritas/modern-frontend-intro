@@ -1,0 +1,19 @@
+.post {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#posts:first-child, #posts:last-child {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+nav.navbar {
+    border-radius: 3px;
+    background-color: #FDFDFD !important;
+    border: 1px solid #DDD
+}

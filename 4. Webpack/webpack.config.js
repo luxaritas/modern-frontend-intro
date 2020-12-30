@@ -15,9 +15,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: 'src/index.html'
         }),
-        new CopyPlugin([
-            { from: 'data/*' },
-        ]),
+        new CopyPlugin({
+	    patterns: [
+                { from: 'data/*' },
+            ]
+	}),
     ],
     module: {
         rules: [
